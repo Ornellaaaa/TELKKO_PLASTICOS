@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keyworks" content="Sillas, comodidad, color">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://unpk.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Inicio_TELKKO PLÁSTICOS</title>
+</head>
+<body>
+    <div class= "gridindex">
+        <header class="header">
+            <div class="logo">
+               <img src="../img/PLÁSTICOS.png" alt="logo web"
+               width="350px" height="200px">
+            </div>
+            <div>
+                <nav class="nav color terciario">
+                    <ul class="border">
+                        <li class=li_nav>
+                            <a href="#"> Inicio_TELKKO</a>
+                        </li>
+                        <li class="li_nav">
+                            <a href="pages/productos.html"> Productos</a>
+                        </li>
+                        <li class="li_nav">
+                            <a href="pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="li_nav">
+                            <a href="pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="li_nav">
+                           <a href="pages/blog.html">Blog</a> 
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="overflow mainindex">
+            <div class="imgindex">
+                <img class="imgmoble imgdesktop"
+                src="img/encabezado sillas.jpeg" alt="encabezado sll" width="480px" height="260px">
+                
+            </div>
+            <div class="título1">
+                <h1 class="centro"> Quienes somos</h1>
+            </div>
+            <div class="texto">
+                <p class="color centro">
+                    La Empresa TELKKO PLÁSTICOS debe su denominación al hermoso lago de parques nacionales telkko que se encuentra en la provincia de Misiones y que da inicio a sus actividades por el año 1975, en la ciudad de ezeiza, provincia de Buenos Aires. Hacia 1987, y con un gran crecimiento, se traslada a un predio de 40000m2 que hoy están cubiertos y equipados con la mejor tecnología alemana e italiana para satisfacer y atender las necesidades del mercado, brindándole a nuestros clientes productos de alta calidad.
+                </p>
+            </div>
+            <div class="titulo2">
+                <h1 class="centro">Productos</h1>
+            </div>
+            <div class="tabla">
+               <centro>
+                <table class="color-terciario tabla" cellpadding="35" borde ="5">
+                  <tbody>
+                    <tr>
+                        <td>Nombre</td>
+                        <td> Caracteristicas </td>
+                        <td> Colores disponibles</td>
+                    </tr>
+                    <tr>
+                        <td> Silla París</td>
+                        <td> Fabricada en resina sintética </td>
+                        <td>
+                             Es apilable
+                             <br>
+                             Silla reforzada
+                             <br>
+                             <a href ="pages/productos.html"> Ver más</a>
+                        </td>
+                        <td>
+                            Negra o Blanca
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Banco Alto </td>
+                        <td>
+                            Fabricado en resina sintética
+                         <br>
+                          Altura: 78 cm 
+                          <a href="pages/productos.html">Ver más</a> 
+                        </td>
+                        <td> Blanco, Rojo o Azul Marino </td>
+                    </tr>
+                    <tr>
+                        <td> Sillón Caribe</td>
+                        <td>
+                           Fabricado con plástico PVC 
+                           <br>
+                           <a href="pages/productos.html"> Ver más</a>
+                        </td>
+                        <td> Azul o Blanco </td>
+                    </tr>
+                  </tbody>
+                </table>
+               </centro> 
+           </div>
+        </main>
+        <footer class="footer color-secundario m20">
+            <ul>
+                <li>
+                    <img src="img/logotipo-facebook.png" alt="logo facebook" width="48px" height="48px">
+                    <a href="azul">Facebook</a>
+                </li>
+                <li>
+                    <img src="img/Instagram-Logo.png" alt="logo instagram" width="48px" height="48px">
+                    <a href="violeta" >Instagram</a>
+                </li>
+                <li>
+                    <img src="img/YouTube_social_white_squircle.svg.png" alt="logo youtube" width="48px" height="48px">
+                    <a href="rojo">Youtube</a>
+                </li>
+            </ul>
+            <div class="m20">
+                <iframe src="img/mesa.negra.jpeg" style="border: 200px;;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" widht="400" height="300">
+                <div id="document"></div>
+            </iframe>
+
+            </div>
+            <div class="news">
+                <form action="">
+                    <h2> Newsletter</h2>
+                    <label for="#">Nombre</label>
+                    <input type="text">
+                     <br>   
+                    <label for="#"> Apellido</label>
+                    <input type="text">
+                    <br>
+                    <label for="#">Email</label>
+                    <input type="Submit" value="Enviar">
+                    <input type="reset" value="Limpiar"> 
+                </form>
+            </div>
+        </footer>
+    </div>
+    <div>
+        <h3 class="centro" Todos los derechos reservados> </h3>
+    </div>
+    </div>
+</body>
+</html>
